@@ -1,0 +1,20 @@
+{
+  "name": "react-snake",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.3.0",
+    "typescript": "^2.6.2",
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3"
+  },
+  "scripts": {
+    "start": "./node_modules/parcel-bundler/bin/cli.js ./src/index.html -d ./temp",
+    "build": "./node_modules/parcel-bundler/bin/cli.js build ./src/index.html -d ./docs --public-url ./"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
